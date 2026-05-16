@@ -2,6 +2,20 @@ export default function AboutSection() {
   return (
     <section id="about" className="scroll-section">
       <p className="eyebrow">ABOUT</p>
+      <div style={{ marginBottom: '32px' }}>
+        <img
+          src="/avatar.png"
+          alt="Aravind Palakkal"
+          style={{
+            width: '120px',
+            height: '120px',
+            borderRadius: '50%',
+            objectFit: 'cover',
+            border: '2px solid #cc2a2a',
+            display: 'block',
+          }}
+        />
+      </div>
       <h2 style={{
         fontFamily: 'var(--font-display)',
         fontSize: 'clamp(28px, 4vw, 44px)',
